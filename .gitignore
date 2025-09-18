@@ -1,4 +1,4 @@
-# La`TeX` intermediate and output files
+# La```TeX``` intermediate and output files
 *.aux
 *.log
 *.out
