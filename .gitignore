@@ -6,7 +6,7 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
-*.pdf
+``
 *.blg
 *.bbl
 *.nav
@@ -21,3 +21,4 @@
 *.eps
 *.synctex
 *.run.xml
+.vscode/
