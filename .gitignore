@@ -1,0 +1,23 @@
+# La`TeX` intermediate and output files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+*.blg
+*.bbl
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.lof
+*.lot
+*.gz
+*.dvi
+*.ps
+*.eps
+*.synctex
+*.run.xml

@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{url}
+\usepackage{parskip} 	
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\usepackage{fontawesome5}
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=\textbullet]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+\begin{document}
+\pagestyle{empty} 
+
+%---------------------- TITLE --------------------------
+\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X}
+\Huge{Siddhant Gaikwad} \\[5pt]
+\small Pune, Maharashtra, India \\[7.5pt]
+\href{mailto:siddhant.gaikwad1754@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ siddhant.gaikwad1754@gmail.com} \ $|$ \ 
+\href{tel:+919322857003}{\raisebox{-0.05\height}\faMobile\ +91-9322857003} \ $|$ \
+\href{https://www.linkedin.com/in/siddhant-gaikwad-50335b270/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
+\href{https://github.com/S0ulReaPeR1}{\raisebox{-0.05\height}\faGithub\ Github}
+\end{tabularx}
+
+
+%---------------------- SUMMARY --------------------------
+\section{Summary}
+Computer Science student with expertise in full-stack web development, system design, and scalable application development. Proficient in building high-performance web applications, integrating databases, and APIs. Experienced in developing responsive UIs, secure backends, and real-time features. Passionate about problem solving, performance optimization, and user-centric development.
+
+%---------------------- EDUCATION --------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+Nov 2022 – Present & \textbf{Vishwakarma Institute of Technology, Pune} \hfill Pune, India \\
+& Bachelor of Technology — Computer Science \hfill (CGPA: 8.75) \\
+\end{tabularx}
+%---------------------- SKILLS --------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Languages & JavaScript, Java, Python, C \\
+Web Technologies & React, Node.js, Express.js, Flask, Spring Boot, MySQL, MongoDB, TailwindCSS \\
+Tools & Figma, Git/GitHub, VS Code, Spring Tool Suite \\
+Soft Skills & Leadership, Communication, Teamwork, Public Speaking
+\end{tabularx}
+%---------------------- EXPERIENCE --------------------------
+\section{Experience}
+\begin{joblong}{Industry Project Intern — E-Zest by Accion Labs}{Mar 2025 – Sep 2025}
+\item Developed a full-stack calendar management application using React, Node.js, Express, and MongoDB with OAuth 2.0 authentication for Google and Microsoft integration.
+\item Implemented an AI-powered conversational scheduling system with NLP that detects conflicts and suggests optimal meeting times via chatbot.
+\item Delivered a production-ready web application with RESTful APIs, JWT authentication, and real-time chatbot integration.
+\end{joblong}
+
+%---------------------- PROJECTS --------------------------
+\section{Projects}
+
+\begin{joblong}{CraftConnect — Service Marketplace Platform}{Feb 2025 – Present}
+\item Tech Stack: React, TailwindCSS, Node.js, MongoDB, Redis
+\item Built a platform connecting professionals with customers for service bookings.
+\item Implemented real-time location-based professional search and OTP verification with role-based authentication.
+\end{joblong}
+
+\begin{joblong}{Raga Music Generator — AI Research Project}{Nov 2024}
+\item Tech Stack: Python, TensorFlow, LSTM, Deep Learning, Streamlit
+\item Trained 4 AI models using a double LSTM architecture, improving raga accuracy by 35\%.
+\item Processed 500+ music samples, achieving an 85\% accuracy rate by optimizing loss functions.
+\end{joblong}
+
+\begin{joblong}{AI-Based Email Phishing Detection using NLP}{Jan 2025 – May 2025}
+\item Tech Stack: Python, PyTorch, Transformers, LSTM, Deep Learning
+\item Built a BERT+LSTM hybrid model to detect phishing emails with high accuracy.
+\item Implemented dataset handling classes, model saving/loading, and trained on diverse datasets.
+\end{joblong}
+
+
+
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}
